@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520773D12BFBCA5A00A923E1 /* StudentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */; };
+		520773D32BFBD53500A923E1 /* PaymentPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D22BFBD53500A923E1 /* PaymentPackage.swift */; };
+		520773D52BFBDA9200A923E1 /* PackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D42BFBDA9200A923E1 /* PackageView.swift */; };
+		524589122BFF5F6A00B81BA8 /* CallLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524589112BFF5F6A00B81BA8 /* CallLogs.swift */; };
+		524589162BFF7E1100B81BA8 /* CallLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524589152BFF7E1100B81BA8 /* CallLogView.swift */; };
 		5261A80B2BF38A3F008BFDAF /* TafaParentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A80A2BF38A3F008BFDAF /* TafaParentAppApp.swift */; };
 		5261A80D2BF38A3F008BFDAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A80C2BF38A3F008BFDAF /* ContentView.swift */; };
 		5261A80F2BF38A44008BFDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5261A80E2BF38A44008BFDAF /* Assets.xcassets */; };
 		5261A8122BF38A44008BFDAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5261A8112BF38A44008BFDAF /* Preview Assets.xcassets */; };
 		5261A81A2BF39562008BFDAF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A8192BF39562008BFDAF /* SplashView.swift */; };
 		5261A81D2BF39E5D008BFDAF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A81C2BF39E5D008BFDAF /* LoginView.swift */; };
+		52E1E6E32BF4857D00417408 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1E6E22BF4857D00417408 /* HomeView.swift */; };
+		52E1E6E62BF4D0C900417408 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1E6E52BF4D0C900417408 /* Student.swift */; };
+		52E1E6E82BF4D22B00417408 /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1E6E72BF4D22B00417408 /* StudentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsView.swift; sourceTree = "<group>"; };
+		520773D22BFBD53500A923E1 /* PaymentPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPackage.swift; sourceTree = "<group>"; };
+		520773D42BFBDA9200A923E1 /* PackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageView.swift; sourceTree = "<group>"; };
+		524589112BFF5F6A00B81BA8 /* CallLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLogs.swift; sourceTree = "<group>"; };
+		524589152BFF7E1100B81BA8 /* CallLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLogView.swift; sourceTree = "<group>"; };
 		5261A8072BF38A3F008BFDAF /* TafaParentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TafaParentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5261A80A2BF38A3F008BFDAF /* TafaParentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TafaParentAppApp.swift; sourceTree = "<group>"; };
 		5261A80C2BF38A3F008BFDAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +36,9 @@
 		5261A8112BF38A44008BFDAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5261A8192BF39562008BFDAF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		5261A81C2BF39E5D008BFDAF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		52E1E6E22BF4857D00417408 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52E1E6E52BF4D0C900417408 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		52E1E6E72BF4D22B00417408 /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,8 @@
 		5261A8092BF38A3F008BFDAF /* TafaParentApp */ = {
 			isa = PBXGroup;
 			children = (
+				52E1E6E42BF4D07A00417408 /* models */,
+				52E1E6E12BF4855B00417408 /* home */,
 				5261A81B2BF39E07008BFDAF /* login */,
 				5261A8182BF3951F008BFDAF /* Splash */,
 				5261A80A2BF38A3F008BFDAF /* TafaParentAppApp.swift */,
@@ -87,6 +105,28 @@
 				5261A81C2BF39E5D008BFDAF /* LoginView.swift */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		52E1E6E12BF4855B00417408 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				52E1E6E22BF4857D00417408 /* HomeView.swift */,
+				52E1E6E72BF4D22B00417408 /* StudentView.swift */,
+				520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */,
+				520773D42BFBDA9200A923E1 /* PackageView.swift */,
+				524589152BFF7E1100B81BA8 /* CallLogView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		52E1E6E42BF4D07A00417408 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				52E1E6E52BF4D0C900417408 /* Student.swift */,
+				520773D22BFBD53500A923E1 /* PaymentPackage.swift */,
+				524589112BFF5F6A00B81BA8 /* CallLogs.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524589122BFF5F6A00B81BA8 /* CallLogs.swift in Sources */,
+				520773D32BFBD53500A923E1 /* PaymentPackage.swift in Sources */,
 				5261A80D2BF38A3F008BFDAF /* ContentView.swift in Sources */,
+				52E1E6E62BF4D0C900417408 /* Student.swift in Sources */,
 				5261A80B2BF38A3F008BFDAF /* TafaParentAppApp.swift in Sources */,
+				524589162BFF7E1100B81BA8 /* CallLogView.swift in Sources */,
+				520773D12BFBCA5A00A923E1 /* StudentDetailsView.swift in Sources */,
 				5261A81D2BF39E5D008BFDAF /* LoginView.swift in Sources */,
+				52E1E6E32BF4857D00417408 /* HomeView.swift in Sources */,
+				52E1E6E82BF4D22B00417408 /* StudentView.swift in Sources */,
 				5261A81A2BF39562008BFDAF /* SplashView.swift in Sources */,
+				520773D52BFBDA9200A923E1 /* PackageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

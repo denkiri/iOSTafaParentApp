@@ -18,6 +18,7 @@ struct SplashView: View {
         else{
             ZStack {
                 Image("background")
+                    .resizable()
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 
                 VStack{
