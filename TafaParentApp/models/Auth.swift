@@ -6,3 +6,6 @@
 //
 
 import Foundation
+struct Auth: Codable {
+    let details: Details
+}

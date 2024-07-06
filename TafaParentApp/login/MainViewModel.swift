@@ -188,7 +188,7 @@ class MainViewModel: ObservableObject {
                 }
             }, receiveValue: { callLogs in
                 self.callLogs = callLogs
-                print("callLogs details fetched successfully: \(callLogs)")
+//                print("callLogs details fetched successfully: \(callLogs)")
             })
             .store(in: &self.cancellables)
     }

@@ -6,9 +6,8 @@
 //
 
 import SwiftUI
-let callLogData = CallLogs(duration: 20.0, id: 20, mobile_number: "0700107838", timestamp: 50.0, tokens_consumed: 50.0)
 struct CallLogView: View {
-    var Data:CallLogs
+    var Data:Communication
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
@@ -31,7 +30,7 @@ struct CallLogView: View {
                                 .foregroundColor(Color.black)
                         }.padding())
         }}}
-
-#Preview {
-    CallLogView(Data: callLogData)
-}
+//
+//#Preview {
+//    CallLogView(Data: Data)
+//}

@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5200C59E2C3519DC00DE8081 /* TestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200C59D2C3519DC00DE8081 /* TestUIView.swift */; };
+		5200C5A22C35BCE600DE8081 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200C5A12C35BCE600DE8081 /* TermsView.swift */; };
+		5200C5A42C35C2BE00DE8081 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200C5A32C35C2BE00DE8081 /* PrivacyPolicyView.swift */; };
 		520773D12BFBCA5A00A923E1 /* StudentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */; };
 		520773D32BFBD53500A923E1 /* PaymentPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D22BFBD53500A923E1 /* PaymentPackage.swift */; };
 		520773D52BFBDA9200A923E1 /* PackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D42BFBDA9200A923E1 /* PackageView.swift */; };
+		5238AACB2C196CAC001C09DE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AACA2C196CAC001C09DE /* MainViewModel.swift */; };
+		5238AACD2C196D57001C09DE /* LoginDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AACC2C196D57001C09DE /* LoginDetails.swift */; };
+		5238AACF2C196D8B001C09DE /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AACE2C196D8B001C09DE /* Auth.swift */; };
+		5238AAD12C196DC3001C09DE /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AAD02C196DC3001C09DE /* Details.swift */; };
+		5238AAD42C1976EB001C09DE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AAD32C1976EB001C09DE /* API.swift */; };
+		5238AAD72C197A01001C09DE /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AAD62C197A01001C09DE /* ErrorResponse.swift */; };
 		524589122BFF5F6A00B81BA8 /* CallLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524589112BFF5F6A00B81BA8 /* CallLogs.swift */; };
 		524589162BFF7E1100B81BA8 /* CallLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524589152BFF7E1100B81BA8 /* CallLogView.swift */; };
+		5254AD262C1AE8840017E4FE /* ProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254AD252C1AE8840017E4FE /* ProfileResponse.swift */; };
 		5261A80B2BF38A3F008BFDAF /* TafaParentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A80A2BF38A3F008BFDAF /* TafaParentAppApp.swift */; };
 		5261A80D2BF38A3F008BFDAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A80C2BF38A3F008BFDAF /* ContentView.swift */; };
 		5261A80F2BF38A44008BFDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5261A80E2BF38A44008BFDAF /* Assets.xcassets */; };
@@ -19,16 +29,25 @@
 		5261A81A2BF39562008BFDAF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A8192BF39562008BFDAF /* SplashView.swift */; };
 		5261A81D2BF39E5D008BFDAF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261A81C2BF39E5D008BFDAF /* LoginView.swift */; };
 		52E1E6E32BF4857D00417408 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1E6E22BF4857D00417408 /* HomeView.swift */; };
-		52E1E6E62BF4D0C900417408 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1E6E52BF4D0C900417408 /* Student.swift */; };
 		52E1E6E82BF4D22B00417408 /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1E6E72BF4D22B00417408 /* StudentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5200C59D2C3519DC00DE8081 /* TestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView.swift; sourceTree = "<group>"; };
+		5200C5A12C35BCE600DE8081 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		5200C5A32C35C2BE00DE8081 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsView.swift; sourceTree = "<group>"; };
 		520773D22BFBD53500A923E1 /* PaymentPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPackage.swift; sourceTree = "<group>"; };
 		520773D42BFBDA9200A923E1 /* PackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageView.swift; sourceTree = "<group>"; };
+		5238AACA2C196CAC001C09DE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		5238AACC2C196D57001C09DE /* LoginDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDetails.swift; sourceTree = "<group>"; };
+		5238AACE2C196D8B001C09DE /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		5238AAD02C196DC3001C09DE /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		5238AAD32C1976EB001C09DE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5238AAD62C197A01001C09DE /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		524589112BFF5F6A00B81BA8 /* CallLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLogs.swift; sourceTree = "<group>"; };
 		524589152BFF7E1100B81BA8 /* CallLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLogView.swift; sourceTree = "<group>"; };
+		5254AD252C1AE8840017E4FE /* ProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponse.swift; sourceTree = "<group>"; };
 		5261A8072BF38A3F008BFDAF /* TafaParentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TafaParentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5261A80A2BF38A3F008BFDAF /* TafaParentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TafaParentAppApp.swift; sourceTree = "<group>"; };
 		5261A80C2BF38A3F008BFDAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +56,6 @@
 		5261A8192BF39562008BFDAF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		5261A81C2BF39E5D008BFDAF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		52E1E6E22BF4857D00417408 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		52E1E6E52BF4D0C900417408 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		52E1E6E72BF4D22B00417408 /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5238AAD22C1976C9001C09DE /* api */ = {
+			isa = PBXGroup;
+			children = (
+				5238AAD32C1976EB001C09DE /* API.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		5238AAD52C1979D7001C09DE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5238AAD62C197A01001C09DE /* ErrorResponse.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		5261A7FE2BF38A3E008BFDAF = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +105,8 @@
 		5261A8092BF38A3F008BFDAF /* TafaParentApp */ = {
 			isa = PBXGroup;
 			children = (
+				5238AAD52C1979D7001C09DE /* utils */,
+				5238AAD22C1976C9001C09DE /* api */,
 				52E1E6E42BF4D07A00417408 /* models */,
 				52E1E6E12BF4855B00417408 /* home */,
 				5261A81B2BF39E07008BFDAF /* login */,
@@ -103,6 +139,9 @@
 			isa = PBXGroup;
 			children = (
 				5261A81C2BF39E5D008BFDAF /* LoginView.swift */,
+				5238AACA2C196CAC001C09DE /* MainViewModel.swift */,
+				5200C5A12C35BCE600DE8081 /* TermsView.swift */,
+				5200C5A32C35C2BE00DE8081 /* PrivacyPolicyView.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -115,6 +154,7 @@
 				520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */,
 				520773D42BFBDA9200A923E1 /* PackageView.swift */,
 				524589152BFF7E1100B81BA8 /* CallLogView.swift */,
+				5200C59D2C3519DC00DE8081 /* TestUIView.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -122,9 +162,12 @@
 		52E1E6E42BF4D07A00417408 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				52E1E6E52BF4D0C900417408 /* Student.swift */,
 				520773D22BFBD53500A923E1 /* PaymentPackage.swift */,
 				524589112BFF5F6A00B81BA8 /* CallLogs.swift */,
+				5238AACC2C196D57001C09DE /* LoginDetails.swift */,
+				5238AACE2C196D8B001C09DE /* Auth.swift */,
+				5238AAD02C196DC3001C09DE /* Details.swift */,
+				5254AD252C1AE8840017E4FE /* ProfileResponse.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -202,14 +245,23 @@
 				524589122BFF5F6A00B81BA8 /* CallLogs.swift in Sources */,
 				520773D32BFBD53500A923E1 /* PaymentPackage.swift in Sources */,
 				5261A80D2BF38A3F008BFDAF /* ContentView.swift in Sources */,
-				52E1E6E62BF4D0C900417408 /* Student.swift in Sources */,
 				5261A80B2BF38A3F008BFDAF /* TafaParentAppApp.swift in Sources */,
+				5238AACF2C196D8B001C09DE /* Auth.swift in Sources */,
 				524589162BFF7E1100B81BA8 /* CallLogView.swift in Sources */,
 				520773D12BFBCA5A00A923E1 /* StudentDetailsView.swift in Sources */,
 				5261A81D2BF39E5D008BFDAF /* LoginView.swift in Sources */,
+				5238AACD2C196D57001C09DE /* LoginDetails.swift in Sources */,
+				5238AACB2C196CAC001C09DE /* MainViewModel.swift in Sources */,
 				52E1E6E32BF4857D00417408 /* HomeView.swift in Sources */,
 				52E1E6E82BF4D22B00417408 /* StudentView.swift in Sources */,
+				5200C5A22C35BCE600DE8081 /* TermsView.swift in Sources */,
 				5261A81A2BF39562008BFDAF /* SplashView.swift in Sources */,
+				5254AD262C1AE8840017E4FE /* ProfileResponse.swift in Sources */,
+				5200C5A42C35C2BE00DE8081 /* PrivacyPolicyView.swift in Sources */,
+				5238AAD12C196DC3001C09DE /* Details.swift in Sources */,
+				5200C59E2C3519DC00DE8081 /* TestUIView.swift in Sources */,
+				5238AAD72C197A01001C09DE /* ErrorResponse.swift in Sources */,
+				5238AAD42C1976EB001C09DE /* API.swift in Sources */,
 				520773D52BFBDA9200A923E1 /* PackageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

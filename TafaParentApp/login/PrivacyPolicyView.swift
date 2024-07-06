@@ -6,13 +6,30 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct PrivacyPolicyView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    PolicyWebView()
     }
 }
 
 #Preview {
     PrivacyPolicyView()
+}
+struct PolicyWebView: UIViewRepresentable {
+ 
+    let webView: WKWebView
+    
+    init() {
+        webView = WKWebView(frame: .zero)
+      
+    }
+    
+    func makeUIView(context: Context) -> WKWebView {
+        return webView
+    }
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        webView.load(URLRequest(url: URL(string: "https://tafatalk.co.ke/privacy")!))
+    }
 }

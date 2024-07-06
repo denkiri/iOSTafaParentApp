@@ -4,10 +4,18 @@
 //  Created by Macbook Pro on 23/05/2024.
 //
 import Foundation
-struct CallLogs{
-    var duration: Double
-    var id: Int
-    var mobile_number: String
-    var timestamp: Double
-    var tokens_consumed: Double
+struct CommunicationResponse: Codable {
+    let count: Int
+    let next: String?
+    let previous: String?
+    let results: [Communication]
 }
+
+struct Communication: Codable {
+    let id: Int
+    let mobile_number: String
+    let duration: Double
+    let tokens_consumed: Double
+    let timestamp: String
+}
+

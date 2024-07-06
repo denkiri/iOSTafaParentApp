@@ -5,7 +5,7 @@
 //  Created by Macbook Pro on 20/05/2024.
 //
 import SwiftUI
-let samplePackageData = PaymentPackagesItem(amount: 50.0, id: "1")
+let samplePackageData = PaymentPackagesItem(amount: "50", id: "1")
 struct PackageView: View {
     var Data:PaymentPackagesItem
     var body: some View {

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct  PaymentPackagesItem{
-    var amount: Double
+struct  PaymentPackagesItem :Codable{
+    var amount: String
     var id: String
 }
