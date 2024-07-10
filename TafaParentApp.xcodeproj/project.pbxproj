@@ -13,6 +13,9 @@
 		520773D12BFBCA5A00A923E1 /* StudentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */; };
 		520773D32BFBD53500A923E1 /* PaymentPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D22BFBD53500A923E1 /* PaymentPackage.swift */; };
 		520773D52BFBDA9200A923E1 /* PackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520773D42BFBDA9200A923E1 /* PackageView.swift */; };
+		522B50CA2C3D09E800EF71FA /* TopUpTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B50C92C3D09E800EF71FA /* TopUpTokens.swift */; };
+		522B50CC2C3D0BBD00EF71FA /* TopUpTokensData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B50CB2C3D0BBD00EF71FA /* TopUpTokensData.swift */; };
+		522B50CE2C3D54C100EF71FA /* InvoiceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B50CD2C3D54C100EF71FA /* InvoiceStatus.swift */; };
 		5238AACB2C196CAC001C09DE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AACA2C196CAC001C09DE /* MainViewModel.swift */; };
 		5238AACD2C196D57001C09DE /* LoginDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AACC2C196D57001C09DE /* LoginDetails.swift */; };
 		5238AACF2C196D8B001C09DE /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238AACE2C196D8B001C09DE /* Auth.swift */; };
@@ -39,6 +42,9 @@
 		520773D02BFBCA5A00A923E1 /* StudentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsView.swift; sourceTree = "<group>"; };
 		520773D22BFBD53500A923E1 /* PaymentPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPackage.swift; sourceTree = "<group>"; };
 		520773D42BFBDA9200A923E1 /* PackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageView.swift; sourceTree = "<group>"; };
+		522B50C92C3D09E800EF71FA /* TopUpTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpTokens.swift; sourceTree = "<group>"; };
+		522B50CB2C3D0BBD00EF71FA /* TopUpTokensData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpTokensData.swift; sourceTree = "<group>"; };
+		522B50CD2C3D54C100EF71FA /* InvoiceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceStatus.swift; sourceTree = "<group>"; };
 		5238AACA2C196CAC001C09DE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		5238AACC2C196D57001C09DE /* LoginDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDetails.swift; sourceTree = "<group>"; };
 		5238AACE2C196D8B001C09DE /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
@@ -168,6 +174,9 @@
 				5238AACE2C196D8B001C09DE /* Auth.swift */,
 				5238AAD02C196DC3001C09DE /* Details.swift */,
 				5254AD252C1AE8840017E4FE /* ProfileResponse.swift */,
+				522B50C92C3D09E800EF71FA /* TopUpTokens.swift */,
+				522B50CB2C3D0BBD00EF71FA /* TopUpTokensData.swift */,
+				522B50CD2C3D54C100EF71FA /* InvoiceStatus.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -249,12 +258,14 @@
 				5238AACF2C196D8B001C09DE /* Auth.swift in Sources */,
 				524589162BFF7E1100B81BA8 /* CallLogView.swift in Sources */,
 				520773D12BFBCA5A00A923E1 /* StudentDetailsView.swift in Sources */,
+				522B50CE2C3D54C100EF71FA /* InvoiceStatus.swift in Sources */,
 				5261A81D2BF39E5D008BFDAF /* LoginView.swift in Sources */,
 				5238AACD2C196D57001C09DE /* LoginDetails.swift in Sources */,
 				5238AACB2C196CAC001C09DE /* MainViewModel.swift in Sources */,
 				52E1E6E32BF4857D00417408 /* HomeView.swift in Sources */,
 				52E1E6E82BF4D22B00417408 /* StudentView.swift in Sources */,
 				5200C5A22C35BCE600DE8081 /* TermsView.swift in Sources */,
+				522B50CC2C3D0BBD00EF71FA /* TopUpTokensData.swift in Sources */,
 				5261A81A2BF39562008BFDAF /* SplashView.swift in Sources */,
 				5254AD262C1AE8840017E4FE /* ProfileResponse.swift in Sources */,
 				5200C5A42C35C2BE00DE8081 /* PrivacyPolicyView.swift in Sources */,
@@ -262,6 +273,7 @@
 				5200C59E2C3519DC00DE8081 /* TestUIView.swift in Sources */,
 				5238AAD72C197A01001C09DE /* ErrorResponse.swift in Sources */,
 				5238AAD42C1976EB001C09DE /* API.swift in Sources */,
+				522B50CA2C3D09E800EF71FA /* TopUpTokens.swift in Sources */,
 				520773D52BFBDA9200A923E1 /* PackageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

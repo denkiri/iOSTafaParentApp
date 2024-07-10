@@ -12,4 +12,7 @@ struct API {
     static let profileEndpoint = "\(baseURL)auth/users/user-profile"
     static let paymentsPackages = "\(baseURL)payments/packages"
     static let callLogs = "\(baseURL)communication/parent"
+    static let topUpTokens = "\(baseURL)payments/checkout"
+    static let paymentStatus = "\(baseURL)payments/invoices/check-invoice-status"
+    
 }

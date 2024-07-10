@@ -48,7 +48,8 @@ struct HomeView: View {
                                 }
                                 ContactUs()
                             }
-                        } else if viewModel.errorMessage.isEmpty {
+                        } 
+                    else if viewModel.errorMessage.isEmpty {
                             Text("Loading...")
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)

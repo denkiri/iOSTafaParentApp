@@ -6,3 +6,10 @@
 //
 
 import Foundation
+struct InvoiceStatus: Codable {
+    let invoice: String
+    let status: String
+}
+struct InvoiceStatusData: Codable {
+    let details: InvoiceStatus
+}

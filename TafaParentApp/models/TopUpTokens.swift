@@ -6,3 +6,9 @@
 //
 
 import Foundation
+struct TopUpTokens: Codable{
+    let amount: Int
+    let phone_number: String
+    let service_type: String
+    let student_id: String
+}

@@ -133,8 +133,8 @@ struct StudentDetailsView: View {
                 .overlay(
                     ScrollView(.horizontal) {
                         HStack(alignment: .center, spacing: 26) {
-                            ForEach(viewModel.packageDetails, id: \.id) { data in
-                                PackageView(Data: data)
+                            ForEach(viewModel.packageDetails, id: \.id) { package in
+                                PackageView(Data: package,student:data)
                             }
                         }
                     }
